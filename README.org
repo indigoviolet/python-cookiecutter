@@ -1,0 +1,11 @@
+
+* python-cookiecutter
+
+This is my python package [[https://github.com/cookiecutter/cookiecutter][cookiecutter]] template.
+
+* Usage
+
+#+begin_src shell
+pipx install cookiecutter
+cookiecutter gh:indigoviolet/python-cookiecutter
+#+end_src
