@@ -6,7 +6,7 @@ direnv allow
 
 hub init
 
-{% if cookiecutter.push_to_github | int %}
+{% if cookiecutter.push_to_github == "yes" %}
 hub create
 {% endif %}
 

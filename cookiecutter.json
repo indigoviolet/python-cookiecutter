@@ -6,5 +6,5 @@
   "package_name": "{{ cookiecutter.project_slug.replace('-', '_') }}",
   "description": "Project description",
   "version": "0.1.0",
-  "push_to_github": [0, 1]
+  "push_to_github": ["yes", "no"]
 }
