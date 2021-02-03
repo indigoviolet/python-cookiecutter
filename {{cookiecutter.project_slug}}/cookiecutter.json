@@ -1,8 +1,0 @@
-{
-  "author_name": "Venky Iyer",
-  "email": "indigoviolet@gmail.com",
-  "project_name": "Project Name",
-  "project_slug": "{{ cookiecutter.project_name | slugify }}",
-  "description": "Project description",
-  "version": "0.1.0"
-}
