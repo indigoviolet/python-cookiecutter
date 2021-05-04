@@ -4,10 +4,10 @@ set -ev
 
 direnv allow
 
-hub init
+git init
 
 {% if cookiecutter.push_to_github == "yes" %}
-hub create
+gh repo create {{cookiecutter.project_name}} -d "{{cookiecutter.description}}"
 {% endif %}
 
 poetry add -D mypy
